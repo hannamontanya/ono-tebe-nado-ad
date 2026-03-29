@@ -1,1 +1,33 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 50px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+}
+
+.cover {
+  margin-bottom: 180px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.lots {
+  padding: 0 24px;
+  margin-bottom: 120px;
+}
+
+.about {
+  padding: 0 24px;
+  margin-bottom: 180px;
+}
+
+.footer {
+  padding: 0 50px;
+}
