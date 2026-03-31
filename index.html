@@ -49,13 +49,12 @@
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <h1 class="cover__title">
-            <span class="aligned-text letter-spacing-extended no-letter-spacing">ОНО</span>
-            <span class="aligned-text aligned-text_center letter-spacing-extended no-letter-spacing">ТЕБЕ</span>
-            <span class="aligned-text aligned-text_right letter-spacing-extended no-letter-spacing">НАДО</span>
-          </h1>
-        </div>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text letter-spacing-extended no-letter-spacing">Оно</span>
+          <span class="aligned-text aligned-text_center letter-spacing-extended no-letter-spacing">Тебе</span>
+          <span class="aligned-text aligned-text_right letter-spacing-extended no-letter-spacing">Надо</span>
+        </h1>
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">Сделать ставку</button>
@@ -67,24 +66,27 @@
           <li class="lots__card-list-item">
             <a class="card-link">
               <article class="card card_type_film">
-                <h1>Фильм режиссёра, который бросил киношколу</h1>
-                <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                <div class="overlay"></div>
+                <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a class="card-link">
               <article class="card card_type_book">
-                <h1>Книга, где описан один скучный день из жизни рекламного агента</h1>
-                <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                <div class="overlay"></div>
+                <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a class="card-link">
               <article class="card card_type_picture">
-                <h1>Картина, которую повторит даже 5-летний сын маминой подруги</h1>
-                <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                <div class="overlay"></div>
+                <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
             </a>
           </li>
@@ -93,9 +95,11 @@
           посмотреть больше
         </a>
       </section>
-      <section class="about about__column">
+      <section class="about">
         <div class="about__logo">
-          <img class="about__logo-image">
+          <img class="about__logo-image"
+            src="./images/logo-white.svg"
+            alt="Логотип">
         </div>
         <div class="container">
           <h1 class="about__title">Об аукционе</h1>
