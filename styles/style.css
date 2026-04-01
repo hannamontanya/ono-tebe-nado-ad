@@ -104,11 +104,12 @@
 
 .aligned-text {
   display: block;
-  line-height: 1;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
+  font-size: 100px;
   line-height: 115%;
+  color: #FFFFFF;
 }
 
 .aligned-text_center {
