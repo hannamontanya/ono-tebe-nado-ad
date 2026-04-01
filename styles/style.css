@@ -27,25 +27,24 @@
   color: #000000;
 }
 
-.header__links-list-item {
-}
+/*.header__links-list-item {}*/
 
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__link {}
+/*.header__link {}*/
 
-.header__link_active {}
+/*.header__link_active {}*/
 
 .header__logo {
   display: block;
   width: 130px;
 }
 
-.header__logo-image{}
+/*.header__logo-image{}*/
 
-.address{
+.address {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -111,7 +110,6 @@
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
-  color: #FFFFFF;
 }
 
 .aligned-text_center {
@@ -259,7 +257,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  color: #FFFFFF
 }
 
 .lots__look-more-link {
